@@ -1,0 +1,22 @@
+<button class="button" (click)="buy()">buy me !!!</button>
+<table mdbTable mdbTableScroll scrollY="true" maxHeight="200" bordered="true">
+    <thead>
+      <tr>
+        <th *ngFor="let head of this.arrHead; let i = index" scope="col">{{head}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of this.arrProduct; let i = index">
+        <input type="checkbox" (click)="ok()">
+        <th scope="row">{{p.codeProduct}}</th>
+        <td>{{p.nameProduct}}</td>
+        <td>{{p.colorProduct}}</td>
+        <td>{{p.materialProduct}}</td>
+        <td>{{p.priceProduct}}</td>
+        <td>{{p.descriptionProduct}}</td>
+        <input type="number" max={{p.countProduct}} min="0" value="0">
+      </tr>
+    </tbody>
+  </table>
+
+

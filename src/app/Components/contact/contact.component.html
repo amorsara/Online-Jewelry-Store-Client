@@ -1,0 +1,27 @@
+<div class="div" >
+
+<form [formGroup]="formdata">
+    <br>
+    <input placeholder="שם פרטי" formControlName="fname">
+    <br><br>
+    <input placeholder="שם משפחה" formControlName="lname">
+    <br><br>
+    <input placeholder="טלפון" formControlName="phone">
+    <br><br>
+    <input placeholder="דוא''ל" formControlName="email">
+    <br><br>
+    <select data-label="נושא" formControlName="subject">
+        <option>נושא</option>
+        <option>התחברות</option>
+        <option>הרשמה</option>
+        <option>קטלוג</option>
+        <option>חנויות</option>
+    </select>
+    <br><br>
+    <textarea placeholder="הודעה"></textarea>
+    <br><br>
+
+</form>
+<button (click)="send()" class="button">לשליחה</button>
+
+</div>

@@ -1,0 +1,28 @@
+.links{
+    background-color: black;
+    height: 100px;
+    width: 1520px;
+    margin-left: 0px;
+    border-radius: 7px;
+  /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
+  /*box-shadow: 0 4px 8px 0 rgb(255, 215, 0), 0 6px 20px 0 rgb(255, 215, 0);*/
+  box-shadow: 0 .5rem 1rem  rgb(255, 215, 0);
+}
+#link{
+    direction: rtl;
+    font-size: 40px;
+    color: #ffd700;
+    margin-right: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    top: 40px;
+}
+.img{
+    height:100px;
+    width: 100px;
+    /*margin-left: 500px;*/
+    margin-right: 100px;
+    margin-top: -100px;
+    float: right;
+    z-index: -1;
+}

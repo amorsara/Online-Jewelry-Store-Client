@@ -1,0 +1,10 @@
+<div class="all">
+    <button [disabled]="isDisableP" (click)="prevImg()"><</button>
+    <img src={{this.arrImg[this.index]}} id="img">
+    <img src={{this.arrImg[this.index+1]}} id="img">
+    <img src={{this.arrImg[this.index+2]}} id="img">
+    <img src={{this.arrImg[this.index+3]}} id="img">
+    <button [disabled]="isDisableN" (click)="nextImg()">></button>
+</div>
+
+
